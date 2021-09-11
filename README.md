@@ -1,6 +1,6 @@
 # adsi-2338200
->Repositorio del tecnólogo de análisis de desarrollo de sistemas de información 2338200
+> Repositorio en el tecnólogo en análisis y sistemas de información 2338200
 ---
-## List of Theme
+## List of Themes
 
-- **01** [Emmet](01-emmet/)
+- *01* [Emmet](01-emmet/)
