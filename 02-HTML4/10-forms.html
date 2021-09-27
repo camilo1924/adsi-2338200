@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        h3{
+            *mergin: 10px 0px 0px 0px 0px;
+        }
+    </style>
+</head>
+<body> 
+    <h3>Atributo comun</h3>
+    <ul class="" id=""">
+        <button><li onclick="alert('Helloooooo')"></li></button>
+        
+    </ul>
+
+    <h3>Atributos especificos</h3>
+    <input type="range" class="" id="">
+
+    <h2>Atributos especificos</h2>
+    <h3>action</h3>
+    <h3>method</h3>
+    <h3>enctype</h3>
+    <h3>accept</h3>
+    <h3>novalidate</h3>
+    <h3>autocomplete</h3>
+
+    <h1>FORMS</h1>
+    <!--Personal Data-->
+    <form action="" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend><h2><strong>Personal Data</strong></h2></legend>
+            <!---------------------------->
+            <label for="fullname"><h3>FullName:</h3></label>
+            <input type="Text" id="fullname" placeholder="FullName" value="Jeremias Spriendfield" readonly>
+            <!---------------------------->
+            <label for="birtdate"><h3>BirtDate</h3></label>
+            <input type="date" id="birtdate" required>
+            <!---------------------------->
+            <label for="hour"><h3>Hour</h3></label>
+            <input type="time" id="Hour" required>
+            <!--------------------------->
+            <label for="age"><h3>Age:</h3></label>
+            <input type="number" min="1" max="99" step="5" required>
+            <!--------------------------->
+            <label for="agerange"><h3>Age Range:</h3></label>
+            <input type="range" id="agerange" min="1" max="99" oninput="vage.value=this.value" required>
+            <output id="vage"></output>
+            <!--------------------------->
+            <label for="photo"><h3>photo</h3></label>
+            <input type="file" id="photo">
+            <!--------------------------->
+            <label for="password"><h3>Password</h3></label>
+            <input type="password" id="password">
+            <!--------------------------->
+
+        </fieldset>
+
+        <!-- Institutional Data -->
+        <fieldset>
+            <legend><h2><strong>Intitutional Data</strong></h2> </legend>
+            <br>
+            <!---O-P-T-I-O-N-S-------------->
+            <label for="institution"><h3>institution:</h3></label>
+            <select  id="institution" required   >
+                <option value="">Select Training Center</option>
+                <option value="1">Centro de Procesos Industriales</option>
+                <option value="2">Automatización Industrial</option>
+                <option value="3">Comercio y Servicios</option>
+                <option value="4">Formación Cafetera</option>
+            </select>
+            <br>
+            <br>
+            <!------------------------------>
+            <h3>Trimester:</h3>
+            <label><input type="radio" name="trimester" onclick="vprog.value='25'" >First</label><br>
+            <label><input type="radio" name="trimester" onclick="vprog.value='50'">Second</label><br>
+            <label><input type="radio" name="trimester" onclick="vprog.value='75'">Third</label><br>
+            <label><input type="radio" name="trimester" onclick="vprog.value='100'">Fourth</label>
+            <br>
+            <progress id="vprog" max="100"></progress>
+            <!------------------------------>
+            <h3>Programs</h3>
+            <label><input type="checkbox"> Mathematics </label>
+
+            <label><input type="checkbox"> English </label>
+            
+            <label><input type="checkbox"> Ethic </label>
+
+            <!------------------------------>
+            <br>
+            <label for="description"> <strong>Program Description</strong> </label>
+            <br>
+            <textarea id="description" cols="40" rows="4" placeholder="Program descrption" required></textarea>
+            
+        </fieldset>
+        <input type="submit" value="Send Data">
+        <input type="reset" value="Clear Form">
+    </form>
+</body>
+</htm>

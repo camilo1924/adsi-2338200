@@ -5,8 +5,10 @@ Proceso sin_titulo
 		//Obtener cuánto dinero se le descuenta.
 		
 		//Defición de variables 
-		Definir Num_azar, valor_compra, descuento, total_pagar Como Real;
-		
+		Definir Numero_azar Como Real;
+		Definir valor_compra Como Real;
+		Definir descuento Como Real;
+		Definir total_pagar Como Real;
 		//Salida 
 		Escribir "Digite el valor total de su compra";
 		//Entrada
@@ -14,18 +16,17 @@ Proceso sin_titulo
 		//Salida
 		Escribir "Digite un numero al azar";
 		//Entrada 
-		Leer Num_azar;
+		Leer Numero_azar;
 		
-		Si (Num_azar < 74) Entonces
+		Si (Numero_azar < 74) Entonces
 			descuento <- ((valor_compra * 15) / 100);
 			total_pagar <- (valor_compra - descuento);
 			Escribir "SU descuento es de ", descuento, " Por ende, su total a pagar es ", total_pagar;
-			
 		FinSi
-		Si (Num_azar >= 74) Entonces
+		Si (Numero_azar >= 74) Entonces
 			descuento <- ((valor_compra * 20 )/ 100);
 			total_pagar <- (valor_compra - descuento);
-			Escribir "SU descuento es de ", descuento, " por ende, su total a pagar es ", total_pagar;
+			Escribir "SU descuento es de ", descuento, " Su total a pagar es ", total_pagar;
 		FinSi
 		
 FinProceso

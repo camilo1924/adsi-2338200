@@ -10,12 +10,12 @@ Proceso sin_titulo
 		Leer horas;
 		
 		SI (horas > 40) Entonces
-			horas_extra <- (horas - 40) * 20;
-			total_pagar <- horas_extra + (40 * 16);
+			horas_extra = (horas - 40) * 20;
+			total_pagar = horas_extra + (40 * 16);
 			Escribir "Su total a pagar es de ", total_pagar, "$, incluidas las horas extra.";
 		SiNo
-			horas_extra <- 0;
-			total_pagar <- horas * 16;
+			horas_extra = 0;
+			total_pagar = horas * 16;
 			Escribir "Su total a pagar es de ", total_pagar,"$.";
 			
 		FinSi
