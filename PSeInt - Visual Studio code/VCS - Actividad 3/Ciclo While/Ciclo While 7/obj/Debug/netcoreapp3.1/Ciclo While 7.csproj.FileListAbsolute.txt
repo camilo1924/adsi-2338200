@@ -1,0 +1,14 @@
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\bin\Debug\netcoreapp3.1\Ciclo While 7.exe
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\bin\Debug\netcoreapp3.1\Ciclo While 7.deps.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\bin\Debug\netcoreapp3.1\Ciclo While 7.runtimeconfig.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\bin\Debug\netcoreapp3.1\Ciclo While 7.runtimeconfig.dev.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\bin\Debug\netcoreapp3.1\Ciclo While 7.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\bin\Debug\netcoreapp3.1\Ciclo While 7.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.csproj.AssemblyReference.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.AssemblyInfoInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.AssemblyInfo.cs
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.csproj.CoreCompileInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 7\obj\Debug\netcoreapp3.1\Ciclo While 7.genruntimeconfig.cache

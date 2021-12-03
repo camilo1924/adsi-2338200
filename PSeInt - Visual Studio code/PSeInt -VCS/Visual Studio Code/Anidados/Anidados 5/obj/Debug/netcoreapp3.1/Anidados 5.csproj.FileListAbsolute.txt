@@ -1,0 +1,13 @@
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\bin\Debug\netcoreapp3.1\Anidados 5.exe
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\bin\Debug\netcoreapp3.1\Anidados 5.deps.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\bin\Debug\netcoreapp3.1\Anidados 5.runtimeconfig.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\bin\Debug\netcoreapp3.1\Anidados 5.runtimeconfig.dev.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\bin\Debug\netcoreapp3.1\Anidados 5.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\bin\Debug\netcoreapp3.1\Anidados 5.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\obj\Debug\netcoreapp3.1\Anidados 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\obj\Debug\netcoreapp3.1\Anidados 5.AssemblyInfoInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\obj\Debug\netcoreapp3.1\Anidados 5.AssemblyInfo.cs
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\obj\Debug\netcoreapp3.1\Anidados 5.csproj.CoreCompileInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\obj\Debug\netcoreapp3.1\Anidados 5.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\obj\Debug\netcoreapp3.1\Anidados 5.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Anidados\Anidados 5\obj\Debug\netcoreapp3.1\Anidados 5.genruntimeconfig.cache

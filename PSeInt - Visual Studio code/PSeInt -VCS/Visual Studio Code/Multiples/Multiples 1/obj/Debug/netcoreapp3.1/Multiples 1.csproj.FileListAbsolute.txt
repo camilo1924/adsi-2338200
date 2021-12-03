@@ -1,0 +1,14 @@
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\bin\Debug\netcoreapp3.1\Multiples 1.exe
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\bin\Debug\netcoreapp3.1\Multiples 1.deps.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\bin\Debug\netcoreapp3.1\Multiples 1.runtimeconfig.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\bin\Debug\netcoreapp3.1\Multiples 1.runtimeconfig.dev.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\bin\Debug\netcoreapp3.1\Multiples 1.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\bin\Debug\netcoreapp3.1\Multiples 1.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.csproj.AssemblyReference.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.AssemblyInfoInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.AssemblyInfo.cs
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.csproj.CoreCompileInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\PSeInt -VCS\Visual Studio Code\Multiples\Multiples 1\obj\Debug\netcoreapp3.1\Multiples 1.genruntimeconfig.cache

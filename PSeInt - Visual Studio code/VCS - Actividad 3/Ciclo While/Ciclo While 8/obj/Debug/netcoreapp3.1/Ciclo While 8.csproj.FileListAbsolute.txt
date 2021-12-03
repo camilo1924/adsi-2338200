@@ -1,0 +1,13 @@
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\bin\Debug\netcoreapp3.1\Ciclo While 8.exe
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\bin\Debug\netcoreapp3.1\Ciclo While 8.deps.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\bin\Debug\netcoreapp3.1\Ciclo While 8.runtimeconfig.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\bin\Debug\netcoreapp3.1\Ciclo While 8.runtimeconfig.dev.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\bin\Debug\netcoreapp3.1\Ciclo While 8.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\bin\Debug\netcoreapp3.1\Ciclo While 8.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\obj\Debug\netcoreapp3.1\Ciclo While 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\obj\Debug\netcoreapp3.1\Ciclo While 8.AssemblyInfoInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\obj\Debug\netcoreapp3.1\Ciclo While 8.AssemblyInfo.cs
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\obj\Debug\netcoreapp3.1\Ciclo While 8.csproj.CoreCompileInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\obj\Debug\netcoreapp3.1\Ciclo While 8.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\obj\Debug\netcoreapp3.1\Ciclo While 8.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo While\Ciclo While 8\obj\Debug\netcoreapp3.1\Ciclo While 8.genruntimeconfig.cache

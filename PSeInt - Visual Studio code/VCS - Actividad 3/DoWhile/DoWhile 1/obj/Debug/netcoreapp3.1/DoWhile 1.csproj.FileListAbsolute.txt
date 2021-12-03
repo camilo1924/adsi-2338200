@@ -1,0 +1,14 @@
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\bin\Debug\netcoreapp3.1\DoWhile 1.exe
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\bin\Debug\netcoreapp3.1\DoWhile 1.deps.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\bin\Debug\netcoreapp3.1\DoWhile 1.runtimeconfig.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\bin\Debug\netcoreapp3.1\DoWhile 1.runtimeconfig.dev.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\bin\Debug\netcoreapp3.1\DoWhile 1.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\bin\Debug\netcoreapp3.1\DoWhile 1.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.csproj.AssemblyReference.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.AssemblyInfoInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.AssemblyInfo.cs
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.csproj.CoreCompileInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\DoWhile 1\DoWhile 1\obj\Debug\netcoreapp3.1\DoWhile 1.genruntimeconfig.cache

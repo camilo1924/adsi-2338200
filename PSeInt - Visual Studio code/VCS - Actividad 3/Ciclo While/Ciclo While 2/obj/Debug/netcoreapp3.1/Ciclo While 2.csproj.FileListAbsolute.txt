@@ -1,0 +1,14 @@
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\bin\Debug\netcoreapp3.1\Ciclo While 2.exe
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\bin\Debug\netcoreapp3.1\Ciclo While 2.deps.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\bin\Debug\netcoreapp3.1\Ciclo While 2.runtimeconfig.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\bin\Debug\netcoreapp3.1\Ciclo While 2.runtimeconfig.dev.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\bin\Debug\netcoreapp3.1\Ciclo While 2.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\bin\Debug\netcoreapp3.1\Ciclo While 2.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.csproj.AssemblyReference.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.AssemblyInfoInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.AssemblyInfo.cs
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.csproj.CoreCompileInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VisualSC Actividad\Dotnet ejercicios\Ciclo While 1\Ciclo While 2\obj\Debug\netcoreapp3.1\Ciclo While 2.genruntimeconfig.cache

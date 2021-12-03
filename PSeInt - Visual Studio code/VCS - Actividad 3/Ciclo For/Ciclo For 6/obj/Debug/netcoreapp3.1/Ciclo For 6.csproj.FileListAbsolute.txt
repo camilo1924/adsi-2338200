@@ -1,0 +1,13 @@
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\bin\Debug\netcoreapp3.1\Ciclo For 6.exe
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\bin\Debug\netcoreapp3.1\Ciclo For 6.deps.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\bin\Debug\netcoreapp3.1\Ciclo For 6.runtimeconfig.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\bin\Debug\netcoreapp3.1\Ciclo For 6.runtimeconfig.dev.json
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\bin\Debug\netcoreapp3.1\Ciclo For 6.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\bin\Debug\netcoreapp3.1\Ciclo For 6.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\obj\Debug\netcoreapp3.1\Ciclo For 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\obj\Debug\netcoreapp3.1\Ciclo For 6.AssemblyInfoInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\obj\Debug\netcoreapp3.1\Ciclo For 6.AssemblyInfo.cs
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\obj\Debug\netcoreapp3.1\Ciclo For 6.csproj.CoreCompileInputs.cache
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\obj\Debug\netcoreapp3.1\Ciclo For 6.dll
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\obj\Debug\netcoreapp3.1\Ciclo For 6.pdb
+C:\Users\Janus\Desktop\adsi-2338200\PSeInt - Visual Studio code\VCS - Actividad 3\Ciclo For\Ciclo For 6\obj\Debug\netcoreapp3.1\Ciclo For 6.genruntimeconfig.cache
