@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgound gradient</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+        div.box{
+            border: 2px solid #08313b;
+            height: 200px;
+            margin: 20px auto;
+            width: 300px;
+        }
+        div.box1{
+            background: linear-gradient(to top, rgb(111, 0,255), #9970c7);
+
+        }
+        div.box2{
+            background: linear-gradient(to top, rgb(187, 108, 180),rgb(241, 0, 241));
+
+        }
+        div.box3{
+            background: linear-gradient(#cc0 40%, #00c 40%, #00c 70%, #c00 70%);
+
+        }
+        div.box4{
+            background: linear-gradient(to right,rgb(51, 255, 0) 50%, rgb(78, 65, 139) 50% );
+            background-size: 40px 80%;
+
+        }
+        div.box5{
+            background: radial-gradient(circle, #fff , rgb(3, 2, 7) );
+            
+
+        }
+        div.box6{
+            background: radial-gradient(circle,  #fff 20% ,#fff 40%, rgb(0, 0, 0) 40%, #fff 80% ,#fff 80%, rgb(3, 2, 7) 80%,  rgb(3, 2, 7) 100%, #fff 100% , rgb(3, 2, 7) 120% );
+            
+
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1><a href="index.html">🏡</a>Backgound gradient</h1>
+        </header>
+        <section>
+            <h2>linea-gradient(to top, red, blue)</h2>
+            <div class="box box1"></div>
+            <h2>linea-gradient(45dg, yellow, green)</h2>
+            <div class="box box2"></div>
+            <h2>colombia flag</h2>
+            <div class="box box3"></div>
+            <h2>vertical lines</h2>
+            <div class="box box4"></div>
+            <h2>radial-gradient(circle, peru, green)</h2>
+            <div class="box box5"></div>
+            <h2>Target shoot</h2>
+            <div class="box box6"></div>
+        </section>
+    </main>
+</body>
+</html>

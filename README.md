@@ -5,4 +5,4 @@
 
 - *01* [Emmet](01-emmet/)
 - *02* [HTML4](02-HTML4/)
-- *02* [CSS](03-CSS/)
+- *03* [CSS](03-CSS/)
