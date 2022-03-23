@@ -14,3 +14,5 @@
 | 7. Javascript | Programming Language (Clien-Side) | [open folder](07-javascript/) |
 
 ---
+
+![SENA](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/1200px-Sena_Colombia_logo.svg.png)
