@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+        *{
+            transition: all 0.2s ease-in;
+        }
+
+        body{
+            background-color:#013571 ;
+            color: #ffffff99;
+            font-family: 'Rowdies', cursive;
+        }
+        main{
+            padding: 4rem;
+        }
+        main header figure.logo{
+            background: url(images/pepsi01.png) no-repeat center;
+            margin: 0 auto;
+            width: 919px;
+            height: 354px;
+        }
+        main p{
+            line-height: 2rem;
+            text-align: justify;
+        }
+        main h1{
+            font-size: 3rem;
+            text-align: center;
+        }
+        h1 span.small,
+        h1 span.medium{
+            display: none;
+        }
+        /* = = = = = =*/
+        /*Media Queries*/
+        @media (max-width: 1024px) {
+            main header figure.logo {
+                background: url(images/pepsi02.png) no-repeat center;
+                width: 348px;
+                height: 370px;
+            }
+            h1 span.small,
+            h1 span.large  {
+                display: none;
+            }
+            main h1 span.medium{
+                display: inline;
+            }
+            main h1{
+            font-size: 2.8rem;
+        }
+        }
+        @media (max-width: 780px) {
+            main header figure.logo {
+                background: url(images/pepsi03.png) no-repeat center;
+                width: 162px;
+                height: 156px;
+            }
+            main h1 span.medium,
+            main h1 span.large {
+                display: none;
+            }
+            main h1 span.small{
+                display: inline;
+            }
+            main h1{
+            font-size: 1.7rem;
+        }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <figure class="logo"></figure>
+            
+        </header>
+        <section>
+            <h1>Media Queries
+                <span class="large"> ( >1024px ) </span>
+                <span class="medium"> ( < 1024px ) </span>
+                <span class="small"> ( < 780px ) </span>
+            </h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia quasi nesciunt, quas hic explicabo suscipit iusto. Debitis optio minima quasi deserunt sapiente dolorum hic nostrum facere tempore a? Quisquam, voluptatum debitis eaque ratione illum dolore consectetur rem eligendi beatae voluptate nihil corrupti quibusdam porro placeat maiores id fugit sequi? Dicta commodi expedita facilis qui deleniti dolores voluptatem. Asperiores dicta alias aspernatur itaque eius sunt animi voluptate, sint, a natus aliquid, non id. Repudiandae, eum a ut nulla natus earum alias asperiores voluptates debitis voluptate at veritatis vitae blanditiis incidunt quibusdam autem distinctio. Ea ex laboriosam aut labore debitis officia quisquam corporis, autem eligendi, eos error quaerat quia tempora nam inventore ipsum dolores cupiditate quidem ab adipisci sed. Delectus mollitia amet facere inventore quis ipsum itaque necessitatibus perspiciatis sint qui debitis recusandae temporibus dicta, est cumque, officia voluptates quod explicabo maxime expedita. Illo iure deleniti, facere earum nobis tenetur cupiditate sint, adipisci consectetur et quod ab quos! Ab dolorem quam explicabo assumenda ipsum dignissimos eius, unde modi ea temporibus doloremque quaerat aspernatur laboriosam a quas fugit, impedit nam, consequuntur vitae nobis adipisci provident maiores. Sequi provident, facere nostrum consectetur inventore omnis, voluptatibus non magnam corporis autem expedita, voluptas magni sed alias quas quos illo mollitia vel? Itaque quo veniam hic explicabo excepturi perferendis inventore tempore totam alias molestias, est non eum, vero sed. Hic saepe, iste nesciunt distinctio aliquam ut, nihil a illum similique vero officia quae minus impedit obcaecati quia. Ipsa fuga adipisci suscipit. Debitis voluptas tempore, repellat, nobis dignissimos corrupti quas nesciunt quis explicabo minus totam voluptatum pariatur esse incidunt quaerat velit, atque reiciendis consequatur! Voluptas corporis ad, corrupti facilis accusantium a aut delectus distinctio veritatis praesentium sequi adipisci possimus sapiente, animi blanditiis asperiores iure incidunt autem labore quaerat. Tempora fugiat mollitia obcaecati beatae recusandae nam quae aperiam voluptas necessitatibus dignissimos sed sapiente a, veritatis accusantium dicta hic eos, veniam magni! Ex, adipisci est officia possimus consectetur perspiciatis placeat quod, ipsa minus assumenda excepturi illum? Eos corrupti aliquid doloremque quam delectus perspiciatis nam aut, natus quas alias, ipsum magni tenetur sequi a minus accusamus quae dolore dolores quos! Nisi laudantium doloremque dignissimos ab quo aspernatur velit suscipit eum facilis eaque excepturi libero ea atque quidem nostrum debitis qui, facere recusandae nihil, quam id. Nam fugit eos nostrum, delectus accusamus debitis. Animi sed officia quasi est, vel quisquam repudiandae consectetur odit, beatae culpa facere cupiditate obcaecati tempore ratione exercitationem iusto. Voluptatem, ullam vel! Dolorum cum odio ea repudiandae itaque nulla commodi animi provident ad delectus, vero autem voluptas vel sequi facilis porro inventore blanditiis! Eos magni exercitationem cumque aut facere, illum, labore deleniti a laboriosam architecto assumenda porro libero! Facere reiciendis dignissimos suscipit inventore fugit adipisci quisquam, ullam voluptates nisi earum ad in temporibus ipsa recusandae dolorem id distinctio expedita, eius ex. Ipsum porro quaerat dolorum autem, harum facere dignissimos quam doloremque, ullam cum praesentium consequatur nisi, optio deserunt sapiente amet nobis distinctio neque? Quam unde veritatis voluptates sunt architecto laborum ipsam, a ex quod consequatur ipsa vitae, quisquam omnis!
+            </p>
+        </section>
+    </main>
+</body>
+</html>

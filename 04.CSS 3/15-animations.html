@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+         figure.garden{
+            background: url(images/Carretera.jpg) no-repeat center /cover;
+            height: 380px;
+            margin: 20px auto;
+            position: relative;
+            width: 580px;
+            overflow: hidden;
+         }
+         figure.garden div.dove{
+            background:url(images/moto.gif) no-repeat center /cover;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            margin-top: 150px;
+            left: -100px;
+            animation: animDove 5s linear infinite ;
+         }
+         @keyframes animDove{
+             0%{
+                left: -100px;
+             }
+             50%{
+                left: 200px;
+                transform: rotate(-30deg) scale(1.2);
+             }
+             100%{
+                 left: 500px;
+             }
+         }  
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1><a href="index.html">🏡</a>Animation</h1>
+        </header>
+        <section>
+            <h2>Example</h2>
+            <figure class="garden">
+                <div class="dove"></div>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>

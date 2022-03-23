@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformations</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+        figure.zenitsu{
+            background: url(images/zenitsu.jpg) no-repeat center /contain;
+            width: 180px;
+            margin: 20px auto;
+            height: 280px;
+            
+        }
+        figure.transf1{
+            transform: Translate(-100px);
+        }
+        figure.transf2{
+            transform: rotate(90deg);
+        }
+        figure.transf3{
+            transform: scale(0.5);
+        }
+        figure.transf4{
+            transform: skew(30deg);
+        }
+        figure.transf5{
+            transform: rotate(45deg) scale(0.6);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1><a href="index.html">🏡</a>Transformations</h1>
+        </header>
+        <section>
+            <h2>Translate(-100px)</h2>
+            <figure class="zenitsu transf1"></figure>
+            <h2>rotate(90deg)</h2>
+            <figure class="zenitsu transf2"></figure>
+            <h2>scale(0.5)</h2>
+            <figure class="zenitsu transf3"></figure>
+            <h2>skew(30deg)</h2>
+            <figure class="zenitsu transf4"></figure>
+            <h2>rotate(45deg) scale(0.6)</h2>
+            <figure class="zenitsu transf5"></figure>
+        </section>
+    </main>
+</body>
+</html>
