@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Calculator</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <style>
+        header h1{
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+        }
+        div.calculator{
+            
+            margin: 40px auto;
+            width: 370px;
+        }
+        header.display{
+            height: 66px;
+            width: 370px;
+            background: url(images/calc/display.svg) no-repeat center;
+            
+        }
+        header.display input.value{
+            letter-spacing: 3px;
+            background: none;
+            outline: nome;
+            border: none;
+            width: 340px;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            font-family: Popins;
+            font-style: "Rowdies", cursive;
+            position: absolute;
+            text-align: right;
+            right: 10px;
+            top: 10px;
+
+        }
+        section.buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+            justify-content: center;
+            row-gap: 10px;
+            column-gap: 8px;
+            margin: 10px 0;
+            
+        }
+           
+        section.buttons button{
+            height: 80px ;
+            border: none;
+            cursor: pointer;
+            width: 80px;
+            transition: 0.1s ease-in;
+        }
+        section.buttons button:hover{
+            transform: scale(1.10);
+        }
+        button.borrar-todo{
+            background: url(images/calc/borrar-todo.svg) no-repeat center;
+        }
+        button.Borrar{
+            background: url(images/calc/Borrar.svg) no-repeat center;
+        }
+        button.guion{
+            background: url(images/calc/guion.svg) no-repeat center;
+
+        }
+        button.porcent{
+            background: url(images/calc/porcent.svg) no-repeat center;
+
+        }
+        button.n-7{
+            background: url(images/calc/n-7.svg) no-repeat center;
+
+        }
+        button.n-8{
+            background: url(images/calc/n-8.svg) no-repeat center;
+
+        }
+        button.n-9{
+            background: url(images/calc/n-9.svg) no-repeat center;
+
+        }
+        button.Multiplicar{
+            background: url(images/calc/Multiplicar.svg) no-repeat center;
+
+        }
+        button.n-4{
+            background: url(images/calc/n-4.svg) no-repeat center;
+
+        }
+        button.n-5{
+            background: url(images/calc/n-5.svg) no-repeat center;
+
+        }
+        button.n-6{
+            background: url(images/calc/n-6.svg) no-repeat center;
+
+        }
+        button.resta{
+            background: url(images/calc/resta.svg) no-repeat center;
+
+        }
+       
+        button.n-1{
+            background: url(images/calc/n-1.svg) no-repeat center;
+
+        }
+         button.n-2{
+            background: url(images/calc/n-2.svg) no-repeat center;
+
+        }
+        button.n-3{
+            background: url(images/calc/n-3.svg) no-repeat center;
+
+        }
+        button.suma{
+            background: url(images/calc/suma.svg) no-repeat center;
+
+        }
+        button.divisor{
+            background: url(images/calc/divisor.svg) no-repeat center;
+
+        }
+        button.n-0{
+            background: url(images/calc/n-0.svg) no-repeat center;
+
+        }
+        button.punto{
+            background: url(images/calc/punto.svg) no-repeat center;
+
+        }
+        button.igual{
+            background: url(images/calc/igual.svg) no-repeat center;
+
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+    <main>
+        <header>
+            <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+                  </svg>
+            </a>
+            <h1>Challenge Calculator</h1>
+        </header>
+        <section>
+            <div class="calculator">
+                <header class="display"> 
+                    <input type="text" class="value" readonly>
+                </header>
+                <section class="buttons">
+                    <button class="borrar-todo"></button>
+                    <button class="Borrar"></button>
+                    <button class="guion" data-opr="^"></button>
+                    <button class="porcent"data-opr="%"></button>
+                    <button class="n-7"data-num="7"></button>
+                    <button class="n-8"data-num="8"></button>
+                    <button class="n-9"data-num="9"></button>
+                    <button class="Multiplicar"data-opr="*"></button>
+                    <button class="n-4"data-num="4"></button>
+                    <button class="n-5"data-num="5"></button>
+                    <button class="n-6"data-num="6"></button>
+                    <button class="resta"data-opr="-"></button>
+                    <button class="n-1"data-num="1"></button>
+                    <button class="n-2"data-num="2"></button>
+                    <button class="n-3"data-num="3"></button>
+                    <button class="suma"data-opr="+"></button>
+                    <button class="divisor"data-opr="/"></button>
+                    <button class="n-0"data-num="0"></button>
+                    <button class="punto"data-opr=".""></button>
+                    <button class="igual"></button>
+                </section>
+            </div>  
+        </section>
+    </main>
+    <script>
+        // Value in Display 
+        const display = document.querySelector('input.value')
+        //Button
+        const borrarTodo = document.querySelector('button.borrar-todo')
+        const Borrar = document.querySelector('button.Borrar')
+        const igual = document.querySelector('button.igual')
+        // All
+
+        const btnsNumbers =document.querySelectorAll ("button[data-num]")
+        const btnsOperation =document.querySelectorAll ("button[data-opr]")
+        //logic
+        var operStatus = false
+        //activete
+        for (let i = 0; i < btnsNumbers.length; i++) {
+            btnsNumbers[i].onclick = function(){
+                 operStatus = true
+                 addToDisplay(this.getAttribute("data-num"))
+                
+            }
+            
+        }
+        for (let i = 0; i < btnsOperation.length; i++) {
+            btnsOperation[i].onclick = function(){
+                if (operStatus){
+                addToDisplay(this.getAttribute("data-opr"))
+                operStatus = false
+                }
+            }
+        }
+
+        //Events
+        document.onkeyup = (evt) =>{
+            //alert(evt.keyCode)
+            //Console log(evt.keyCode)
+            //0 - 9 => keyCode: 96,97,98,99,100,101,102,103,104,105
+                              //48,49,50,51,52,53,54,55,56,57
+            //BackSpace     => 845
+            //exp   ^       =>
+            //mod   %       =>53
+            //multi *       =>106
+            //rest  -       =>109
+            //sum   +       =>107
+            //point .       =>110
+            //div   /       =>111
+            //supr          =>46
+            switch (evt.keyCode) {
+            //Operators
+            case 8: 
+                    deleteLastValue()
+                    break;
+                case 46: 
+                claerDisplay()
+                    break;
+                case 96:
+                case 48:
+                    addToDisplay(0)
+                    break;
+                case 97:
+                case 49:
+                    addToDisplay(1)
+                    break;
+                case 98:
+                case 50:
+                    addToDisplay(2)
+                    break;
+                case 99:
+                case 51:
+                    addToDisplay(3)
+                    break;
+                case 100:
+                case 52:
+                    addToDisplay(4)
+                    break;
+                case 101:
+                case 53:
+                    if (evt.shiftKey) {
+                        addToDisplay('%')
+                    }else{
+                    addToDisplay(5)
+                    }
+                    break;
+                case 102:
+                case 54:
+                    addToDisplay(6)
+                    break;
+                case 103:
+                case 55:
+                    if(evt.shiftKey){
+                        addToDisplay('/')
+                    }else{
+                    addToDisplay(7)
+                    }
+                    break;
+                case 111: 
+                    addToDisplay('/')
+                    break;
+                case 104:
+                case 56:
+                    addToDisplay(8)
+                    break;
+                case 105:
+                case 57:
+                    addToDisplay(9)
+                    break;
+                case 106:
+                    addToDisplay('*')
+                    break;
+                case 67:
+                     claerDisplay()
+                break;
+                case 187: 
+                case 107:
+                    if(evt.shiftKey){
+                        addToDisplay('*')
+                    } else{
+                        addToDisplay('+')
+                    }
+                    break;
+                case 190:
+                    addToDisplay('.')
+                    break;
+                case 110:
+                    addToDisplay('.')
+                break;
+                default:
+                    break;
+                case 222:
+                    if (evt.ctrlKey && evt.altKey) {
+                        addToDisplay('^')
+                    }
+                    break;
+                case 189: 
+                case 109:
+                    addToDisplay('-')
+                    break;
+                case 13:
+                    igual.onclick()
+                    break;
+            }
+        }
+        Borrar.onclick = () => {
+            claerDisplay()
+        }
+        borrarTodo.onclick = () => {
+            deleteLastValue()
+        }
+        igual.onclick = () => {
+            var operacion  = display.value;
+            if(operacion.trim() != "")
+            operacion = operacion.replace("^", "**");
+            operacion = eval(operacion)
+            display.value = operacion
+            
+        }
+    
+        
+        //Function
+        function claerDisplay(){
+            display.value = ''
+            operStatus = false
+        }
+        function deleteLastValue(){
+            display.value = display.value.slice(0, -1)
+            if(isNaN(display.value.slice(-1))){
+                operStatus = false
+            }else{
+                operStatus = true
+            }
+        }
+        function addToDisplay(c) {
+            if(validateLength()){
+                display.value +=c 
+            }
+        }   714
+        function validateLength() {
+            if(display.value.length < 11){
+                return true
+            }else{
+                return false
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+body{
+    background: url(../images/bg.png) no-repeat center ;
+    min-height: 100vh;
+    color: #fff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rowdies', cursive;
+}
+h2,h3,h4{
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin: 0px 40px;
+}
+main{
+    background-color: #00000099;
+    border-radius: 30px;
+    border: 6px solid #fadf38;
+    height: 700px;
+    width: 420px;
+}
+header{
+    position: relative;
+}
+ header h1{
+    text-align: center;
+    color: #fadf38;
+    border-bottom: 6px solid #fadf38;  
+    font-size: 2.3rem; 
+}
+header a:link,
+header a:visited{
+    color: #fadf38;
+    position: absolute;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in;
+}
+header a:hover{
+    transform:translateX(-5px);
+
+}
+nav{
+    overflow-y: auto;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav li a:link,
+nav li a:visited{
+    background-color: #fadf3899;
+    border-radius: 20px;
+    color: #000;
+    padding: 10px;
+    width: 240px;
+    display: flex;
+    text-decoration: none;
+    cursor: grab;
+    cursor: grab;
+    transition: background 0.2s ease-in;
+}
+nav li a i{
+    background-color: #000;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    margin-right: 10px;
+    color: #fadf38;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s 0.2s ease-in;
+}
+nav li a:hover{
+    background-color: #fadf38;
+}
+nav li a:hover i{
+    transform: scale(1.4);
+}
+*::-webkit-scrollbar {;
+    width: 14px;
+    
+  }
+
+  *::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #5caec1;
+    border-radius: 400px;
+  }

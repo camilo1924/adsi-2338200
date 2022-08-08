@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Arrays</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="icon" href="images/JavaScript-logo.ico">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        main{
+            height: 845px;
+             background: url(images/vectors/bg.png) no-repeat center;
+             overflow: hidden;
+        }
+        a svg{
+            color: #ffffff;
+            top: 35px;
+            position: relative;
+        }
+        header h1 {
+            text-indent: -9999px
+        }
+        /*Food*/
+        div.potatos{
+            position: relative;
+            background: url(images/vectors/pk1.png) no-repeat center;
+            width:92px;
+            height: 92px;
+            top: 220px;
+            left: 10px;
+            cursor: pointer;
+        }
+        div.cocaCola{
+            position: relative;
+            background: url(images/vectors/pk2.png) no-repeat center;
+            width: 92px;
+            height: 92px;
+            top: 130px;
+            left: 112px;
+            cursor: pointer;
+        }
+        div.mcFlurry{
+            position: relative;
+            background: url(images/vectors/pk3.png) no-repeat center;
+            width: 92px;
+            height: 92px;
+            top: 35px;
+            left: 220px;
+            cursor: pointer;
+        }
+        div.hamburguer{
+            position: relative;
+            background: url(images/vectors/pk4.png) no-repeat center;
+            width: 92px;
+            height: 92px;
+            top: -56px;
+            left: 322px;
+            cursor: pointer;
+        }
+        div.dobleHamburguer{
+            position: relative;
+            background: url(images/vectors/pk5.png) no-repeat center;
+            width: 92px;
+            height: 92px;
+            top: -50px;
+            left: 10px;
+            cursor: pointer;
+        }
+        div.pk5{
+            background: url(images/vectors/pk6.png) no-repeat center;
+            width: 92px;
+            height: 92px;
+            top: -140px;
+            left: 115px;
+            cursor: pointer;
+            position: relative;
+        }
+        div.pk1{
+            background: url(images/vectors/pk7.png) no-repeat center;
+            width: 92px;
+            height: 92px;
+            top: -230px;
+            left: 220px;
+            cursor: pointer;
+            position: relative;
+        }
+        div.doble{
+            background: url(images/vectors/pk8.png) no-repeat center;
+            width: 92px;
+            height: 92px;
+            top: -325px;
+            left: 325px;
+            cursor: pointer;
+            position: relative;
+        }
+        /*Positions*/
+        /*div.positions{
+            position: relative;
+            width: 120px;
+            height: 60px;
+            margin: 20px auto;
+        }
+        div.positions div.add{
+            position: absolute;
+            background: url(images/arrays/add.svg) no-repeat;
+            width: 60px;
+            height: 60px;
+        }
+        div.positions div.delete{
+            position: absolute;
+            background: url(images/arrays/delete.svg) no-repeat;
+            width: 60px;
+            height: 60px;
+            left: 65px;
+        }*/
+
+        section nav.options{
+            margin-left: -12px;
+            display: flex;
+            flex-direction: row;
+            height: 41px;
+            overflow: hidden;
+            gap: -800px;
+            margin-top: -200px;
+        }
+
+        section nav.options input[type=checkbox],
+         section nav.options input[type=number]{
+            -webkit-appearance: none;
+            cursor: pointer;
+            color: #EF4130;
+            border: none;
+            text-align: center;
+            outline: none;
+            background: url(images/vectors/Rectangle\ 6.png) no-repeat center;
+            width: 130px;
+            height: 41px;
+            transition: background 0.4s ease-in;
+        }
+
+        section nav.options input[type=checkbox].position{
+            background: url(images/vectors/first.png) no-repeat center;
+        }
+        section nav.options input[type=checkbox].position:checked{
+            background: url(images/vectors/last.png) no-repeat center;
+        }
+        section nav.options input[type=checkbox].action{
+            background: url(images/vectors/add.png) no-repeat center;
+        }
+        section nav.options input[type=checkbox].action:checked{
+            background: url(images/vectors/remove.png) no-repeat center;
+        }
+        section button{
+            display: flex;
+            margin:  auto;
+            margin-top: 10px;
+            border: none;
+            width: 40px;
+            height: 40px;
+            transition: all 0.5s ease-in;
+            cursor: pointer;
+        }
+        section button:hover{
+            transform: scale(1.1);
+        }
+        section button.btn-add{
+            background: url(images/vectors/btn-add.png) no-repeat center;
+            width: 80px;
+            height: 80px;
+            top: -1px;
+            left: 10px;
+            position: relative;
+        }
+        section button.btn-remove{
+            background: url(images/vectors/btn-remove.png) no-repeat center;
+            width: 80px;
+            height: 80px;
+            top: -8px;
+            left:  10px;
+            position: relative;
+        }
+
+        section figure.result{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 380px;
+            margin: auto;
+            gap: 30px;
+            overflow: hidden;
+            height: 95px;
+            margin-top: 50px;
+            
+        }
+        section figure.result div{
+            height: 95px;
+            width: 95px;
+            border-radius: 20px;
+        }
+        section div.food1{
+            background: url(images/vectors/pk1.png) no-repeat center;
+        }
+        section div.food2{
+            background: url(images/vectors/pk2.png) no-repeat center;
+        }
+        section div.food3{
+            background: url(images/vectors/pk3.png) no-repeat center;
+        }
+        section div.food4{
+            background: url(images/vectors/pk4.png) no-repeat center;
+        }
+        section div.food5{
+            background: url(images/vectors/pk5.png) no-repeat center;
+        }
+        section div.food6{
+            background: url(images/vectors/pk6.png) no-repeat center;
+        }
+        section div.food7{
+            background: url(images/vectors/pk7.png) no-repeat center;
+        }
+        section div.food8{
+            background: url(images/vectors/pk8.png) no-repeat center;
+        }
+        
+        section figure.result div span{
+            background-color: #00000099;
+            font-size: 1.3rem;
+            padding: 0px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+                  </svg>
+            </a>
+
+        </header>
+        <section>
+            <!--Select Food-->
+            <div class="foods">
+                <div class="potatos         food animate__animated animate__infinite"></div>
+                <div class="cocaCola        food animate__animated animate__infinite"></div>
+                <div class="mcFlurry        food animate__animated animate__infinite"></div>
+                <div class="hamburguer      food animate__animated animate__infinite"></div>
+                <div class="dobleHamburguer food animate__animated animate__infinite"></div>
+                <div class="pk5             food animate__animated animate__infinite"></div>
+                <div class="pk1             food animate__animated animate__infinite"></div>
+                <div class="doble           food animate__animated animate__infinite"></div>
+            </div>
+            <!--Select Position-->
+            <nav class="options">
+                <input class="position" type="checkbox">
+                <input class="action" type="checkbox">
+                <input class="nposition" type="number" placeholder="Positions" min="0" max="99">
+            </nav>
+            <button class=" btn btn-add"></button>     
+            <figure class="result"><div class="food1"></div></figure>
+        </section>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        //Elements
+        const food          = document.querySelectorAll ('.food')
+        const sw_position   = document.querySelector    ('.position')
+        const sw_action     = document.querySelector    ('.action')
+        const btn_action    = document.querySelector    ('.btn')
+        const result        = document.querySelector    ('.result')
+        //Global Variable
+        var nposition       = document.querySelector    ('.nposition')
+        var slt_food        = null
+        var slt_position    = 'first'
+        var slt_action      = 'add' 
+        var array_food      = []
+        //var creada para valorar el estado de slt_position
+        var check = true
+
+        //
+        food.forEach((element, index) => {
+            element.addEventListener('click', (e) => {
+                removeAnimation()
+                slt_food = 'food' + (index+1)
+                element.classList.add('actived','animate__pulse')
+            })
+        });
+
+        
+
+        function removeAnimation() {
+            food.forEach(element => {
+                element.classList.remove('actived','animate__pulse')
+            })
+        }
+        //aqui estabam llamando mal elemento no era sw_action sino sw_position
+        sw_position.addEventListener('click', (e) =>{
+            //el valor solo ocurria una vez despues siempre devuelve last
+            if (check == false){
+                slt_position = 'first'
+                check = true
+            }else{
+                slt_position = 'last'
+                check = false
+            }
+        })
+
+        sw_action.addEventListener('click', (e) =>{
+            if (sw_action.checked == true){
+                slt_action = 'remove'
+                btn_action.classList.remove('btn-add')
+                btn_action.classList.add('btn-remove')
+            }else{
+                slt_action = 'add'
+                btn_action.classList.remove('btn-remove')
+                btn_action.classList.add('btn-add')
+            }
+        })
+
+        btn_action.addEventListener('click', (e) =>{
+            if(slt_food != null){
+                //Swal.fire(slt_food + ' - ' + slt_position  + ' - ' + slt_action)
+                if(slt_action == 'add'){
+                    if(slt_position == 'first'){
+                        array_food.unshift(slt_food)
+                    }else{
+                        array_food.push(slt_food)
+                    }
+                }else{
+                    //modifique la condicion a la misma de la parte de arriba
+                    if(slt_position == 'first'){
+                        array_food.shift()
+                    }else{
+                        array_food.pop()
+                    }
+                }
+                result.innerHTML = ''
+                for (let i = 0; i < array_food.length; i++) {
+                    result.innerHTML += '<div class="animate_bounceInUp animate_animated '+array_food[i]+'"><span>'+i+'</span></div>'
+                }
+            }else{
+                //chimba de alerta
+                Swal.fire('Select Food')
+            }  
+        })
+        
+    </script>
+</body>
+<!-- Agregar al final no sirve, Agrega al principio
+    agregar al
+-->
+</html>
