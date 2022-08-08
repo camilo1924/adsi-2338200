@@ -92,6 +92,7 @@ nav li a:hover i{
 }
 *::-webkit-scrollbar {;
     width: 14px;
+    
   }
 
   *::-webkit-scrollbar-track {
@@ -100,5 +101,5 @@ nav li a:hover i{
 
   *::-webkit-scrollbar-thumb {
     background-color: #5caec1;
-    border-radius: 40px;
+    border-radius: 400px;
   }
