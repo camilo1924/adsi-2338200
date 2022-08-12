@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <style>
+        section{
+            height: 580px;
+            overflow-y: auto;
+        }
+        div.block{
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+    
+        }
+        output{
+            font-size: 1.4rem;
+            color: #fadf38;
+        }
+        button,
+        input,
+        select{
+            font-family: 'Rowdies', cursive;
+            padding: 8px 10px;
+            color: #fff;
+            background-color: #000;
+            border: 2px solid #fffa;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body onload="welcome()">
+    <main>
+        <header>
+            <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+            </a>
+            <h1>Events</h1>
+        </header>
+        <section>
+            <h2>Page load</h2>
+            <div class="block">
+                <output class="msj-load">Page No load</output>
+            </div>
+            <h2>Double Click</h2>
+            <div class="block">
+                <button class="btn-dbclick">Double click me</button>
+                <output class="nums-dbclicks">0 clicks</output>
+            </div>
+            <h2>Release Key</h2>
+            <div class="block">
+                <input type="text" class="inp-keyup">
+                <output class="msj-keyup">null</output>
+            </div>
+            <h2>Resize Window</h2>
+            <div class="block">
+                <output class="msj-resize">no resize</output>
+            </div>
+            <h2>Change Value</h2>
+            <div class="block">
+                <select class="slt-change">
+                    <option value="" selected disabled>Select Color</option>
+                    <option value="#00000099">Reset</option>
+                    <option value="#ff000066">Red</option>
+                    <option value="#00ff0066">Green</option>
+                    <option value="#0000ff66">Blue</option>
+                </select>
+            </div>
+            <h2>Mouse (over/out)</h2>
+            <div class="block">
+                <img src="images/kakaoCardFirst.png" class="img-kakao">
+            </div>
+        </section>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        //Elements
+        const msj_load      = document.querySelector('.msj-load')
+        const btn_dbclick   = document.querySelector('.btn-dbclick')
+        const nums_dbclicks = document.querySelector('.nums-dbclicks')
+        const inp_keyup     = document.querySelector('.inp-keyup')
+        const msj_keyup     = document.querySelector('.msj-keyup')
+        const msj_resize    = document.querySelector('.msj-resize')
+        const main_bg       = document.querySelector('main')
+        const slt_change    = document.querySelector('.slt-change')
+        const img_kakao     = document.querySelector('.img-kakao')
+        // variables
+        var contdbclicks = 0
+        //events
+        //Event ondblclick
+        btn_dbclick.ondblclick = () => {
+            contdbclicks++
+            nums_dbclicks.textContent = contdbclicks + ' clicks'
+        }
+        //Event onkeyup
+        inp_keyup.onkeyup = function() {
+            if(this.value.length < 8){
+                msj_keyup.value = this.value
+            }
+            if(this.value.length == 0){
+                msj_keyup.value = 'null'
+            }
+        }
+        //Event onresize
+        window.onresize = function() {
+            msj_resize.innerText = 'Window widht: ' + window.outerWidth + 'px \n' + 'Window height ' + window.outerHeight + 'px' 
+        }
+        //Event onchange
+        slt_change.onchange = function() {
+            main_bg.style.backgroundColor = this.value
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Your work has been saved',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        }
+        //Event onmouseover
+        img_kakao.onmouseover = function () {
+            this.src = 'images/kakaoCardSecond.png'
+        }
+        //Event onmouseout
+        img_kakao.onmouseout = function () {
+            this.src = 'images/kakaoCardFirst.png'
+        }
+        //Functions
+        function welcome(){
+            msj_load.textContent = 'The page was load'
+        }
+    </script>
+</body>
+</html>

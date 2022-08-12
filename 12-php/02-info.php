@@ -10,10 +10,13 @@
 <body>
     <main class="container">
         <div class="row">
-            <div class="col-8 offset-2 text-center">
+            <div class="col-md-8 offset-2 text-center">
             <?php 
             echo "<h1 class='mt-5'>PHP Info</h1>"; 
+            ?>
+            <hr>
 
+            <?php
 
             phpinfo()
             

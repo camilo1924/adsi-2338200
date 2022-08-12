@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+body{
+    font-family: Poppins;
+    background-color: #303840;
+}
+
+.bg-purple{
+  background-color: #b5b9ff;  
+}
+h1{
+    border-radius: 20px;
+    color: #fff;
+}
+main{
+    color: #303840;
+}
